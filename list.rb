@@ -17,3 +17,6 @@ puts(list.all? { |e| e > 5 })
 puts(list.any? { |e| e == 2 })
 puts(list.any? { |e| e == 5 })
 print(list.filter(&:even?))
+puts list.max
+puts list.min
+p list.sort
